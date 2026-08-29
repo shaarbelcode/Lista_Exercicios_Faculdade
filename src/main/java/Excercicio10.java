@@ -15,7 +15,7 @@ public class Excercicio10 {
         recuperacao = (media_aluno< 5 && 7 > media_aluno);
         if(media_aluno >= 7 ){
             media_aluno = aprovado;
-            System.out.println("Pabens paso de ano !!!");
+            System.out.println("Pabens paso de ano !!!")
         }
 
     }
