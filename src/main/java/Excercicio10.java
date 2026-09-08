@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Excercicio10 {
-
+    //10. Ler a média final de um aluno e classificá-la: média maior ou igual a 7 resulta em
+    //aprovado, média entre 5 e 7 resulta em recuperação, e média abaixo de 5 resulta em
+    //reprovado
    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

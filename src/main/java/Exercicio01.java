@@ -16,7 +16,7 @@ public class Exercicio01 {
             String nome = sc.nextLine();
 
             System.out.println("----------------------------------");
-            System.out.println("O cidadão se chama " +  nome + " ,ele tem " + idade + " angitos,e tem  " + altura + " metros de altura.");
+            System.out.println("O cidadão se chama " +  nome + " ,ele tem " + idade + " anos,e tem  " + altura + " metros de altura.");
 
         }
     }
