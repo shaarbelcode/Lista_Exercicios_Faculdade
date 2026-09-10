@@ -3,7 +3,7 @@
 //temperatura de 38 graus ou mais gera alerta de calor extremo,
 //umidade abaixo de 30 por cento gera alerta de umidade baixa,
 //temperatura de 35 graus ou mais com umidade abaixo de 20
-//por cento gera alerta de risco de queimada.
+//por cento gera alerta de risco de queimada
 
 
 package br.com.shaarbel.lista02;
@@ -23,13 +23,13 @@ public class exl2_03 {
 
         if(temperatura >=38 ){
             System.out.println("ALERTA!!!! CALOR EXTREMO !!!");
-        }else if (umidade < 30){
+        }if (umidade < 30){
             System.out.println("ALERTA DE UMIDADE BAIXA !!!!!");
-        }else if (temperatura >=35){
+        }if (temperatura >=35){
             System.out.println("CUIDADO RISCO DE QUEIMADA!!!!!!");
-        }else if (umidade <20){
+        }if (umidade <20){
             System.out.println("CUIDADE RISCO DE QUEIMADA!!!!!");
-        }else if (temperatura <30){
+        }if (temperatura <30){
             System.out.println("ESTÁ TRANQUILO A TEMPERATURA ESTÁ AMENUA, SUAVE PARA PRATICAR SUAS ATIVIDADES");
         }
     }

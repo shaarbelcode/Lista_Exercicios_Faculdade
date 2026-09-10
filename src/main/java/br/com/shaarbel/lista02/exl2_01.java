@@ -2,7 +2,6 @@
 //        que se aplicam a ela: 16 anos ou mais pode votar, 18 anos ou
 //        mais pode dirigir, 60 anos ou mais é idoso. Uma pessoa de 65
 //        anos deve receber as três mensagens.
-
 package br.com.shaarbel.lista02;
 
 import java.util.Scanner;
