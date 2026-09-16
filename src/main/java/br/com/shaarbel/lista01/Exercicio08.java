@@ -1,3 +1,5 @@
+package br.com.shaarbel.lista01;
+
 import java.util.Scanner;
 public class Exercicio08{
 

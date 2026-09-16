@@ -1,5 +1,5 @@
-
-    //12. Ler o consumo mensal de energia em kWh e calcular o valor da conta. Até 100
+package br.com.shaarbel.lista01;
+//12. Ler o consumo mensal de energia em kWh e calcular o valor da conta. Até 100
     //kWh o preço é 0,50 por kWh. De 101 a 300 kWh o preço é 0,75 por kWh. Acima de 300
     //kWh o preço é 1,10 por kWh. A faixa escolhida é aplicada sobre o con
     import java.util.Scanner;

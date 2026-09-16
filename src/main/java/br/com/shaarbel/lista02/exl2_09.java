@@ -13,22 +13,27 @@ import java.util.Scanner;
 public class exl2_09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double salario, calculoanos;
-        int anos, percentualsalario ;
+        int anos, percentualsalario;
+        double salario,calculoanos;
 
         System.out.println("Me informe seu salario : ");
              salario = sc.nextDouble();
         System.out.println("Agora me informe seu tempo de empresa: ");
              anos = sc.nextInt();
 
-        if (anos <1 ){
-            System.out.println("Você não recebe bonus , complete para receber");
-        }else if(anos > 1 && anos <=3){
+        if(anos > 1 && anos <=3){
             percentualsalario = 5;
             calculoanos = ((salario * percentualsalario) / 100);
-            System.out.printf("Você contém direito a 5%% de bônus,Seu salário ficou no valor de: R$ :    %.2f" + calculoanos);
+            System.out.printf("Você contém direito a 5% de bônus,Seu salário ficou no valor de :  R$ : "+ calculoanos);
         }else if(anos > 3 && anos <= 10){
-            System.out.println("Você contém direito a 10% de b");
-        }
+            percentualsalario = 10;
+            calculoanos = ((salario * percentualsalario) / 100);
+            System.out.println("Você contém direito a 10% de bonus, Seu salário ficou de  : R$ : "+ calculoanos);
+        }else if (anos >10){
+            percentualsalario = 15;
+            calculoanos = ((salario * percentualsalario) / 100);
+            System.out.println("Você tem direito a 15% de bonus, Seu salário ficou de : R$ : " + calculoanos);
+        }else
+            System.out.println("Você não recebe bonus , aguarde 1 ano para ser contemplado");
     }
 }
