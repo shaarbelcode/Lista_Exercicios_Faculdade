@@ -26,7 +26,6 @@ public class exl2_01 {
                 System.out.println(mensagem3);
             }
             if(idade >= 65){
-                System.out.println(mensagem1 + " ," + mensagem2 + " ," + mensagem3 + ".");
             }
             if(idade < 16){
                 System.out.println(mensagem4);
