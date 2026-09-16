@@ -15,7 +15,16 @@ public class exl3_03 {
         int nota;
 
         System.out.println("Digite sua nota : ");
-            nota = sc.nextInt();
+        nota = sc.nextInt();
+        if (nota > 10) {
+            System.out.println("Numero invalido, digite novamente");
+        } else {
 
+            do {
+                System.out.println(nota);
+                nota++;
+            } while (nota >= 0 && nota <= 10);
+            System.out.println("Nota aceita");
+        }
     }
 }
